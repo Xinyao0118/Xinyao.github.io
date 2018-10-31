@@ -1,9 +1,17 @@
 ---
 title: "About"
+output: html_document
 ---
 
-### About this site
+### Homework4 for p8105
 
-Sometimes you need to say a bit about the site -- how it was made, where it's hosted, where the source code can be found. 
+This is  [Xinyao Wu`s](Resume.html) personal page.
 
-If this is for a project or analysis, I recommend giving some details about the R package versions that you used to create the content.
+ <img src="image/pd.jpg" style="width:45%">
+ 
+ Here is the details:
+ 
+ *[Resume](Resume.html)
+ 
+ *[Flexdashboard](Flexdashboard.html)
+ 

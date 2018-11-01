@@ -1,7 +1,24 @@
 ---
-title: "Holy cow!"
+title: "Introduction"
+output: html_document
 ---
 
-### I have a webpage!
+##  Xinyao Wu
+Current gratuate student 
 
-And I can put all kinds of stuff on it!
+Department of Biostatistics
+
+Columbia University Medical Center
+
+
+
+###This is  [Xinyao Wu`s](Resume.html) personal page.
+
+ <img src="image/pd.jpg" style="width:45%">
+ 
+ Here is the details:
+ 
+ *[Resume](Resume.html)
+ 
+ *[Flexdashboard](Flexdashboard.html)
+ 

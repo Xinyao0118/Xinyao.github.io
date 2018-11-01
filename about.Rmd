@@ -1,11 +1,18 @@
 ---
-title: "About"
+title: "Introduction"
 output: html_document
 ---
 
-### Homework4 for p8105
+##  Xinyao Wu
+Current gratuate student 
 
-This is  [Xinyao Wu`s](Resume.html) personal page.
+Department of Biostatistics
+
+Columbia University Medical Center
+
+
+
+###This is  [Xinyao Wu`s](Resume.html) personal page.
 
  <img src="image/pd.jpg" style="width:45%">
  

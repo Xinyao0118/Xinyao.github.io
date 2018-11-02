@@ -12,13 +12,13 @@ Columbia University Medical Center
 
 
 
-###This is  [Xinyao Wu`s](Resume.html) personal page.
-
- <img src="image/pd.jpg" style="width:45%">
+ <img src="image/pd.jpg" style="width:55%">
  
- Here is the details:
+ 
+More Information:
  
  *[Resume](Resume.html)
  
  *[Flexdashboard](Flexdashboard.html)
+ 
  

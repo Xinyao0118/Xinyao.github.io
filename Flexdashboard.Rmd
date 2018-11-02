@@ -38,26 +38,49 @@ Column {data-width=650}
 Column {data-width=550}
 -----------------------------------------------------------------------
 
-### days since prior order of different departments
+### Distribution of averanges days since prior order and count of department
 
 ```{r warning = FALSE}
-box = 
+line = 
 inst %>% 
-  ggplot(aes(x = department,y = days_since_prior_order, color = department))+
-  geom_boxplot() +
-  theme(axis.text.x = element_text(angle = 90, size = 3.5))
-ggplotly(box)
+  group_by(department) %>% 
+  summarise(
+    ave_day = mean(days_since_prior_order),
+    count = n()
+  ) %>% 
+  mutate(department = fct_reorder(department,desc(ave_day))) %>% 
+  ggplot(aes(x = department,y = ave_day,color = count))+
+  geom_point() +
+  theme(axis.text.x = element_text(angle = 90, size = 5.5),
+        axis.title = element_text(size = 5.5)
+        )+
+  labs(
+    y = "Average days since prior order"
+  )
+ggplotly(line)
 
 ```
 
-### ?
+### Distribution of order numbers in each hour of the day in the day of the week 
 
 ```{r}
+  box =
   inst %>% 
   group_by(order_dow,order_hour_of_day) %>% 
   summarise(
     count = n()
   ) %>% 
-  plot_ly(x = ~order_hour_of_day, y = ~count,  type = "box")
+  ggplot(aes(x = as.factor(order_hour_of_day), y = count))+
+  geom_boxplot()+
+  labs(
+      x = "Hour in the day",
+      y = "Count"
+    ) 
+ggplotly(box)
 
 ```
+
+
+
+
+

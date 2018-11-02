@@ -5,12 +5,12 @@ output: html_document
 
 ####This is  [Xinyao Wu`s](Resume.html) personal page.
 
-  Here is the details:
+Which are included:
  
- *[Resume](Resume.html)
+ *[My Resume](Resume.html)
  
  *[Flexdashboard](Flexdashboard.html)
  
- *[Github](http://github.com/xinyao0118/)
+ *[My Github](http://github.com/xinyao0118/)
  
  *[Introduction](about.html)

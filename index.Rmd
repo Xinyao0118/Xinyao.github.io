@@ -7,10 +7,13 @@ output: html_document
 
 Which are included:
  
+ *[Introduction](about.html)
+  
  *[My Resume](Resume.html)
  
  *[Flexdashboard](Flexdashboard.html)
  
  *[My Github](http://github.com/xinyao0118/)
  
- *[Introduction](about.html)
+ *[undergrate project]()
+ 

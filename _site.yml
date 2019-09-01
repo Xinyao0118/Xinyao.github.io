@@ -14,7 +14,7 @@ navbar:
     - text: "Project"
       href: project.html
     - icon: fa-envelope fa-lg
-      href: mailto:xw2598@cumc.columbia.edu
+      href: mailto:wuxinyao1996@gmail.com
     - icon: fa-github fa-lg
       href: http://github.com/xinyao0118/
 output:

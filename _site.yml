@@ -3,6 +3,8 @@ output_dir: "."
 navbar:
   title: "Home"
   right:
+    - text: "Xinyao Wu"
+      href: info.html
     - text: "About"
       href: about.html
     - text: "Resume"
